@@ -1,6 +1,6 @@
 {
   "name": "react-dom-pragma",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prepend the JSX React DOM pragma to a string if doesn't already contain a pragma",
   "license": "MIT",
   "repository": "sindresorhus/react-dom-pragma",
