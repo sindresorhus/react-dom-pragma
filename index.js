@@ -1,6 +1,4 @@
 'use strict';
-var hasJsxPragma = require('has-jsx-pragma');
+const hasJsxPragma = require('has-jsx-pragma');
 
-module.exports = function (str) {
-	return hasJsxPragma(str) ? str : ('/** @jsx React.DOM */\n' + str);
-};
+module.exports = input => hasJsxPragma(input) ? input : `/** @jsx React.DOM */\n${input}`;
